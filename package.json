@@ -1,0 +1,21 @@
+{
+  "name": "sistema-frontend-canarias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NOK-Servicios/Sistema-Frontend-Canarias.git"
+  },
+  "keywords": [],
+  "author": "Aguirre Nahuel",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NOK-Servicios/Sistema-Frontend-Canarias/issues"
+  },
+  "homepage": "https://github.com/NOK-Servicios/Sistema-Frontend-Canarias#readme"
+}
