@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+/*
+  Tokens de color de Canarias Equipamientos.
+  Basados en el logo: azul #1B4F8A y naranja #F5A623.
+
+  Usá estas variables en todo el proyecto:
+    bg-canarias-blue     → fondos del sidebar, headers
+    text-canarias-orange → acentos, badges, botones primarios
+*/
+
+:root {
+  /* ── Marca Canarias ─────────────────────────── */
+  --canarias-blue: #1b4f8a;
+  --canarias-blue-dark: #0f3060;
+  --canarias-blue-light: #2e6db4;
+  --canarias-blue-subtle: #e8f0fa;
+
+  --canarias-orange: #f5a623;
+  --canarias-orange-dark: #d4881a;
+  --canarias-orange-light: #f7bc56;
+  --canarias-orange-subtle: #fef6e4;
+
+  /* ── Semánticos ─────────────────────────────── */
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-info: #3b82f6;
+
+  /* ── Estados de cuotas/clientes ────────────── */
+  --estado-activo: #22c55e;
+  --estado-mora: #ef4444;
+  --estado-pendiente: #f59e0b;
+  --estado-pagado: #22c55e;
+  --estado-vencido: #ef4444;
+  --estado-parcial: #f59e0b;
+}
+
+/* ── Base ───────────────────────────────────────── */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-geist), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Scrollbar discreta ─────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* ── Utilidades de estado para badges ──────────── */
+.badge-activo {
+  background: #dcfce7;
+  color: #166534;
+}
+.badge-mora {
+  background: #fee2e2;
+  color: #991b1b;
+}
+.badge-inactivo {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+.badge-pendiente {
+  background: #fef3c7;
+  color: #92400e;
+}
+.badge-pagado {
+  background: #dcfce7;
+  color: #166534;
+}
+.badge-vencido {
+  background: #fee2e2;
+  color: #991b1b;
+}
+.badge-parcial {
+  background: #fef3c7;
+  color: #92400e;
+}
